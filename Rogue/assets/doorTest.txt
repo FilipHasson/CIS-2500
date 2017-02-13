@@ -1,0 +1,6 @@
+10X16  dn1 ds8 dw5
+20X25 de1  ds14 dw19
+1X1 ds0 dn0 de0 dw0
+13X12 dn0  
+12X13 de4 dw11 dn6 ds4
+5X5 de4 ds4 

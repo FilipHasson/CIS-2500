@@ -1,0 +1,36 @@
+Parsing Testing:
+If there are less than 6 rooms in the file the last room read will duplicate until a total of 6 rooms
+If there are more than 6 rooms in a file the excess rooms are ignored
+If an object is invalid, as in the first character is there but one or both location values are missing, the missing values will default to 0
+If the door is placed outside of the wall it will be returned to said wall, harshly
+If items have the same location value they will be stored and dealt with while drawing
+If the hero apeares in any line other than the first one it will be ignored
+If there is a random item in the file ie x2,2 it will be ignored
+If there is a stray character in the file ie x it will cause a segfault
+If there is a stray character with a comma ie x, it will be ignored
+If there is no door on a room, a complemetary door will be provided
+Items are random each time the program runs
+Items spawn chances work effectively
+Monsters, and Items will not cause go over memory because everything is allocated to the maximum possible (if the whole file is only said item)
+
+Drawing Testing:
+If two items are placed in the same location, the 2nd item will try to move to any open adjecent space, if it cant it will continue to overwrite the first item
+If there are not enough doors/door pairs to ensure all rooms will be connected and accessible, a "master hallway" will be generated
+Hallway algorythm tested excessivly with -h, and will always complete hallways, and will not get stuck or confused while drawing
+Rooms always spawn within their designated areas
+all items within rooms are properly adjusted to the random spawn factor
+quickdraw succesfully redraws the entire board without lag
+
+Gameplay testing
+<Z> key reduces player health to addequetly test health bar colors, and death
+<X> key adds player experience to addequetly test levels and leveing up
+Combat works, correct values are always reduced
+All health strength and duration equations work and proper values are always displayed
+potion strength and duration stacks correctly
+enchants permentently augment correctly
+
+Inventory testing:
+Used potions and enchantments are correctly reduced and removed from sub menus
+Cursor is always selecting a valid option
+Navigation keys work correctly
+When enough weapons are collected a 2nd branch of the submenu is correctly created and navigatable
