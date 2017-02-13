@@ -15,10 +15,15 @@ The winner of the game is the last player to succesfully place a marker.
 As part of the assignment we needed to implement a basic computer opponent.
 In this case the AI simlpy places a marker in the first open tile.
 
+![](Assets/obstruction.gif)
+
 ###2. Logo Interpretter
 
 Logo is a programming language based around moving a drawing turtle.
 This assignment required us to support basic features of the language in a terminal window.
+
+
+![](Assets/logo.gif)
 
 ###3. Rogue
 
@@ -35,3 +40,6 @@ monsters, have an inventory list the items you picked up.
 Additional objectives I undertook were: to make all items usable with at least 8 unique possibilities for the specifics of 
 the item Weapon could be Iron Short Sword or Steel Battle-Axe, ect.. Have the inventory be visually appealing and easy to use
 and incoprerate a experience/leveling system based off of combat. 
+
+
+![](Assets/rogue.gif)
