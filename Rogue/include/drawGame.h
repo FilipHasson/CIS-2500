@@ -17,6 +17,7 @@ Furthermore, I certify that this assignment was prepared by me specifically for 
 #include <string.h>
 #include <time.h>
 #include <math.h>
+#include <unistd.h>
 
 typedef struct topLeftCorner
 {

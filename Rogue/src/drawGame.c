@@ -24,6 +24,9 @@ void initBoard(room rooms[6], int grid[50][100], monsters* mon, int devFlags[5],
     *monPlaced=0;
     tl=malloc(sizeof(topLeftCorner)*6);
 
+    char* args[1] = {""};
+    execvp("reset",args);
+
     initscr();
     start_color();
     attron (COLOR_PAIR(0));
