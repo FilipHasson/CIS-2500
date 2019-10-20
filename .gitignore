@@ -1,5 +1,5 @@
-Logo/bin/*.*
+Logo/bin/*
 Logo/assets/*.*
 Logo/*.logo
-Obstruction/bin/*.*
-Rogue/bin/*.*
+Obstruction/bin/*
+Rogue/bin/*
