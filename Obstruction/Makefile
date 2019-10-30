@@ -1,2 +1,6 @@
 all:
-	gcc -Wall -pedantic -std=c99 ./src/a1.c -Iinclude -lncurses -o ./bin/output
+	gcc -Wall -pedantic -std=c99 -g ./src/obstruction.c -Iinclude -lncurses -o ./bin/Obstruction
+
+clean: 
+	rm -rf bin/*
+
